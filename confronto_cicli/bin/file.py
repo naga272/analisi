@@ -14,7 +14,7 @@ re_do_while = r"\s*do\s*\{"
 est_file    = r".+(\.(h)|(c))$"
 
 
-linux = "./linux"
+linux = "../flussi/linux"
 def main(argc:int, argv:list) -> int:
     num_while       = 0
     num_do_while    = 0
